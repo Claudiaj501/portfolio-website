@@ -1,16 +1,16 @@
 /* Colour Palette:
-Main colour (Thisyle): #CCBDDB
-Text Color (Dark Gray): #2b2b2b;
-Button Colour: #e0b354
-Visited menu color: #4B0082
-Active menu colour: #7CFC00 */
+Main colour (Tyrian Purple): #450B32
+Text Color (White): #FFFFFF;
+Button Colour: #9A87AB
+Visited menu color: #C2E812
+Active menu colour: #8B9EB7 */
 
 :root {
   --primary-color: #450B32;
-  --button-color: #e0b354;
-  --dark-grey: #2b2b2b;
-  --visited-menu: #4B0082;
-  --active-menu: #7CFC00;
+  --button-color: #9A87AB;
+  --text-color: #FFFFFF;
+  --visited-menu: #C2E812;
+  --active-menu: #8B9EB7;
   --font-weight700: 700;
 }
 
@@ -21,7 +21,7 @@ body{background-color: var(--primary-color);
 
 /* Font declartion */
 body {
-  color: var(--dark-grey);
+  color: var(--text-color);
   font-family: 'Lato', sans-serif;
   font-weight: 400; /*font = regular */
   font-size: 16px;
@@ -138,6 +138,13 @@ button:focus,
   margin-left: 30px;
 }
 
+/* WORK PAGE */
+/* work page heading */
+.work_h1 {
+margin-left: 30px;
+}
+
+
 
 
 /* Animation for SVG graphic - colour change */
@@ -207,7 +214,7 @@ button:focus,
   margin-left: 30px;
   margin-right: 30px;
   padding: 10px;
-  border: 2px solid black;
+  border: 2px solid white;
 }
 
 
@@ -256,7 +263,7 @@ grid {
 
 /* grid colour on work page */
 .grid__item {
-  background-color: lightgray;
+  background-color: black;
   padding:30px;
 }
 
@@ -286,7 +293,7 @@ grid {
 
  /* styling for individual blocks in grid */
  .grid__item {
-   background-color: lightgray;
+   background-color: black;
    width: auto;
    min-height: auto;
    margin: 0;
@@ -333,7 +340,7 @@ th {
 
 /* MENU ITEMS - ALL PAGES */
 a {
-  color: var(--dark-grey);
+  color: var(--text-color);
 }
 
 a:visited {
@@ -354,36 +361,6 @@ a:active {
   text-decoration: none;
 }
 
-
-
-
-/* button { */
-  /* overwrites browser defaults and resets the border */
-  /* border: none; */
-  /* takes the font from the outer container */
-  /* font-family: inherit; */
-  /* styles the background color, font color, and text decoration (underline, etc.) of the button */
-  /* background-color: #B0D310; */
-  /* color: black; */
-  /* text-decoration: none; */
-  /*adds spacing to the button (this will be discussed more in-depth later) */
-  /* padding: 10px; */
-  /* border-radius: 3px; */
-  /* gives the button a bottom border with a width of 2px, a type of solid, and a color in RGBA format */
-  /* border-bottom: 2px solid rgba(0, 0, 0, 0.4); */
-/* } */
-
-/* button:hover, button:focus { */
-  /* lets the mouse appear as a hand when hovering over the button */
-  /* cursor: pointer; */
-  /* reduces the opacity of the button to 60% */
-  /* opacity: 0.60; */
-/* } */
-
-/* .button__secondary { */
-  /* background-color: #e0b354; */
-  /* color: #2b2b2b; */
-/* } */
 
           /* CONTACT PAGE */
 /* CONTACT FORM - Maximum characters - styling */

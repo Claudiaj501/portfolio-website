@@ -6,8 +6,8 @@
 */
 
 /* Colour Palette:
-Main colour (Thisyle): #CCBDDB
-Text Color (Dark Gray): #2b2b2b;
+Main colour (Tyrian Purple)): #450B32
+Text Color (White): #FFFFFF;
 Button Colour: #e0b354
 Visited menu color: #4B0082
 Active menu colour: #7CFC00 */
@@ -19,7 +19,7 @@ body{background-color: #450B32;
 
 /* Font declartion */
 body {
-  color: #2b2b2b;
+  color: #FFFFFF;
   font-family: 'Lato', sans-serif;
   font-weight: 400; /*font = regular */
   font-size: 16px;
